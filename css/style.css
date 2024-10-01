@@ -17,8 +17,51 @@ body {
     position: relative;
 
 }
+#poemContainer {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+    max-width: 60%;
+    transition: opacity 0.5s ease;
+}
 
-/* Cherry Petal Styling */
+.button {
+    padding: 12px 24px;
+    background-color:#f5f5f5;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .button:active {
+    background-color: #004080;
+    transform: translateY(1px);
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+  }
+
+
+
+  /* Cherry Petal Styling */
 .petal {
   position: absolute;
   width: 600px;
@@ -76,47 +119,3 @@ body {
   animation-duration: 18s;
   animation-delay: 4s;
 }
-
-
-
-#poemContainer {
-    display: none;
-    position: absolute;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    font-size: 18px;
-    color: #333;
-    max-width: 60%;
-    transition: opacity 0.5s ease;
-}
-
-.button {
-    padding: 12px 24px;
-    background-color:#f5f5f5;
-    color:white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-    transform: translateY(-3px);
-  }
-  
-  .button:active {
-    background-color: #004080;
-    transform: translateY(1px);
-  }
-  
-  .button:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
-  }
