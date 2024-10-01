@@ -1,0 +1,43 @@
+body{text-align: center;
+    background-color: orange;
+    padding: 1em;}
+    div#fortune {font-family: 'Kosugi Maru', sans-serif;
+               margin: 1.5em 0 2em;
+        font-size: 1.5em;
+        
+}
+    p{font-family: sans-serif;}
+
+    .button {
+        padding: 12px 24px;
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      
+        /* Position in bottom-right corner */
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      
+      .button:hover {
+        background-color: #0056b3;
+        transform: translateY(-3px);
+      }
+      
+      .button:active {
+        background-color: #004080;
+        transform: translateY(1px);
+      }
+      
+      .button:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+      }
+    

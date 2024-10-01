@@ -1,0 +1,58 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    place-items: center;
+    height: 100vh;
+    margin: 0%;
+
+}
+
+#poemContainer {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+    max-width: 60%;
+    transition: opacity 0.5s ease;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color:#f5f5f5;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .button:active {
+    background-color: #004080;
+    transform: translateY(1px);
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+  }
