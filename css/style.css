@@ -18,6 +18,67 @@ body {
 
 }
 
+/* Cherry Petal Styling */
+.petal {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  background-image: url('cherry.gif'); /* Replace with your petal image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: fall linear infinite;
+  opacity: 1;
+}
+
+/* Animation for the petals */
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(50vh) rotate(180deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0.3;
+  }
+}
+
+/* Generate petals with different animation durations and delays */
+.petal:nth-child(1) {
+  left: 10%;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+
+.petal:nth-child(2) {
+  left: 30%;
+  animation-duration: 12s;
+  animation-delay: 1s;
+}
+
+.petal:nth-child(3) {
+  left: 50%;
+  animation-duration: 14s;
+  animation-delay: 2s;
+}
+
+.petal:nth-child(4) {
+  left: 70%;
+  animation-duration: 16s;
+  animation-delay: 3s;
+}
+
+.petal:nth-child(5) {
+  left: 90%;
+  animation-duration: 18s;
+  animation-delay: 4s;
+}
+
+
+
 #poemContainer {
     display: none;
     position: absolute;
