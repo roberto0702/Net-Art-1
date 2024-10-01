@@ -3,7 +3,7 @@
     position: absolute;
     width: 600px;
     height: 450px;
-    background-image: url('../cherry.gif'); /* Replace with your petal image */
+    background-image: url('cherry.gif'); /* Replace with your petal image */
     background-size: contain;
     background-repeat: no-repeat;
     animation: fall linear infinite;
